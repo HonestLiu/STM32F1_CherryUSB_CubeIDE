@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "STM32F1_CherryUSB_CubeIDE",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "STM32F1_CherryUSB_CubeIDE.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STM32F1_CherryUSB_CubeIDE.elf-Debug-7f00cc8c3793fecb2c7d.json",
+					"name" : "STM32F1_CherryUSB_CubeIDE.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Develop/STM32CubeIDE/test_workspace/STM32F1_CherryUSB_CubeIDE/cmake-build-debug",
+		"source" : "D:/Develop/STM32CubeIDE/test_workspace/STM32F1_CherryUSB_CubeIDE"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

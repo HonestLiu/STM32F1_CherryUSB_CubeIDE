@@ -1,0 +1,21 @@
+CMakeFiles/STM32F1_CherryUSB_CubeIDE.elf.dir/Core/Src/sysmem.c.obj: \
+ D:\Develop\STM32CubeIDE\test_workspace\STM32F1_CherryUSB_CubeIDE\Core\Src\sysmem.c \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/errno.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/errno.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/reent.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/_ansi.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/newlib.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/_newlib_version.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/config.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/ieeefp.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/features.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/13.3.1/include/stddef.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/cdefs.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/_default_types.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_types.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/_types.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/lock.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/13.3.1/include/stdint.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/stdint.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_intsup.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_stdint.h
