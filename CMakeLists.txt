@@ -1,4 +1,4 @@
-#���ļ���ģ���Զ�����! �������!
+#此文件从模板自动生成! 请勿更改!
 set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_VERSION 1)
 cmake_minimum_required(VERSION 3.30)
@@ -61,7 +61,6 @@ file(GLOB_RECURSE SOURCES
         "Middlewares/CherryUSB/port/fsdev/usb_dc_fsdev.c"
         "Middlewares/CherryUSB/demo/cdc_acm_template.c"
 )
-
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103ZETX_FLASH.ld)
 

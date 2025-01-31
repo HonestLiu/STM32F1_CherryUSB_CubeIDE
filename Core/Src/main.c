@@ -34,7 +34,6 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -96,7 +95,8 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART1_UART_Init();
- //MX_USB_PCD_Init();
+  //MX_USB_PCD_Init();
+  MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
     extern void cdc_acm_init(uint8_t busid, uint32_t reg_base);
     cdc_acm_init(0, USB_BASE);
@@ -107,10 +107,10 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-      extern void cdc_acm_data_send_with_dtr_test(uint8_t busid);
-      cdc_acm_data_send_with_dtr_test(0);
-      HAL_Delay(100);
+    extern void cdc_acm_data_send_with_dtr_test(uint8_t busid);
+    cdc_acm_data_send_with_dtr_test(0);
     /* USER CODE BEGIN 3 */
+
   }
   /* USER CODE END 3 */
 }
