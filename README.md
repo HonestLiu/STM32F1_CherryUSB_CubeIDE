@@ -10,7 +10,9 @@
 
    <img src="./img/image-20250131082958458-1738284907019-2.png" style="zoom:67%;" />
 
-   <img src="./img/image-20250131083024634-1738284907020-3.png" style="zoom:67%;" />
+   <font color="red">此处改用Usart3,使用Uart1会导致异常</font>
+
+   <img src="./img/image-20250131103446017.png" style="zoom:67%;" />
 
 2. 对于F1系列使用的是fsdev ip,故直接勾选**USB**并打开**RX0**中断即可
 
@@ -34,7 +36,7 @@
 
 3. 并进入到工程cmake文件中，把下面的文件加入到编译当中去
 
-   这个==每次重新生成工程都会消失==，其中usbd_cdc.c和cdc_acm_template.c是根据本次要跑的模板工程导入的
+   这个<font color="red">每次重新生成工程都会消失</font>，其中usbd_cdc.c和cdc_acm_template.c是根据本次要跑的模板工程导入的
 
    ```cmake
    file(GLOB_RECURSE SOURCES
